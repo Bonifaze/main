@@ -11,6 +11,6 @@ import react from '@vitejs/plugin-react';
 
 
 export default defineConfig({
-  base: '/wikidata-tracker/',
+  base: '/app/',
   plugins: [react()],
 });
