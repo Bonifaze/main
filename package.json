@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "cd wikidata-tracker && npm install && npm run build && rm -rf ../app && mkdir ../app && cp -r dist/* ../app/"
+  }
+}
